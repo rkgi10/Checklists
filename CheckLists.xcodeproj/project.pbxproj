@@ -13,6 +13,7 @@
 		45067E5A1AD7DA65008EC162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45067E591AD7DA65008EC162 /* Images.xcassets */; };
 		45067E5D1AD7DA65008EC162 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45067E5B1AD7DA65008EC162 /* LaunchScreen.xib */; };
 		45067E691AD7DA65008EC162 /* CheckListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45067E681AD7DA65008EC162 /* CheckListsTests.swift */; };
+		4587CBAB1AD9A59200C893FF /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587CBAA1AD9A59200C893FF /* ChecklistItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		45067E621AD7DA65008EC162 /* CheckListsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckListsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45067E671AD7DA65008EC162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45067E681AD7DA65008EC162 /* CheckListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListsTests.swift; sourceTree = "<group>"; };
+		4587CBAA1AD9A59200C893FF /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChecklistItem.swift; path = ../../../../../Users/rohitgurnani/Documents/ChecklistItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				45067E591AD7DA65008EC162 /* Images.xcassets */,
 				45067E5B1AD7DA65008EC162 /* LaunchScreen.xib */,
 				45067E501AD7DA64008EC162 /* Supporting Files */,
+				4587CBAA1AD9A59200C893FF /* ChecklistItem.swift */,
 			);
 			path = CheckLists;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45067E551AD7DA65008EC162 /* ChecklistViewController.swift in Sources */,
+				4587CBAB1AD9A59200C893FF /* ChecklistItem.swift in Sources */,
 				45067E531AD7DA64008EC162 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				45067E6E1AD7DA65008EC162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45067E6F1AD7DA65008EC162 /* Build configuration list for PBXNativeTarget "CheckListsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				45067E711AD7DA65008EC162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
